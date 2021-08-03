@@ -1,10 +1,8 @@
-import './App.css';
+import Dashboard from './components/dashboard/Dashboard.js';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Dashboard />
   );
 }
 
