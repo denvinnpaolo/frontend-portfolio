@@ -7,10 +7,14 @@ const Navigation = () => {
 
     return(
         <NavContainer>
-            <h1>Denvinn Magsino</h1>
-            {links.map((link, linkIdx) => {
-                return  <section key={linkIdx} className="link">{link}</section>
-            })}
+            <section id="navigation">
+                <section id="nav-menu">
+                    <h1>Denvinn Magsino</h1>
+                    {links.map((link, linkIdx) => {
+                        return  <section key={linkIdx} className="link">{link}</section>
+                    })}
+                </section>
+            </section>
             
         </NavContainer>
     );
