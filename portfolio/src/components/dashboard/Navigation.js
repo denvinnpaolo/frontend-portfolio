@@ -9,11 +9,12 @@ const Navigation = () => {
         <NavContainer>
             <section id="navigation">
                 <section id="nav-menu">
-                    <h1>Denvinn Magsino</h1>
+                    <h1 className="link" id="nav-title">Denvinn Magsino</h1>
                     {links.map((link, linkIdx) => {
                         return  <section key={linkIdx} className="link">{link}</section>
                     })}
                 </section>
+                <section>Login</section>
             </section>
             
         </NavContainer>
