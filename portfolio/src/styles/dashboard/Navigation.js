@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-
+var bg = 'black'
 export const NavContainer = styled.div`
     position: relative;
+    
     left: 0;
     top:0;
     right:0;
@@ -11,15 +12,15 @@ export const NavContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    background-color: black;
+    background-color: #fff;
     margin: 0 auto;
     padding: 20px 4%;
     font-size: 16px;
-    color: #fff;
+    color: ${bg};
     border-bottom: 1px solid hsla(0,0%,100%,.1);
 
     min-height: 50px;
-    height: 50px;
+    height: 4.5vh;
     min-width: 1000px;
     max-width:100%;
     letter-spacing: .5px;
@@ -45,11 +46,11 @@ export const NavContainer = styled.div`
             .link {
                 min-height: 20px;
                 padding: 12px 40px 12px 12px;
-                font-weight: 100;
+                font-weight: 300;
             }
 
             #nav-title {
-                font-size: 20px;
+                font-size: 35px;
                 font-weight: 500;
             }
         }
