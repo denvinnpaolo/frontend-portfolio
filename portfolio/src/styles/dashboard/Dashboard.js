@@ -12,20 +12,37 @@ export const AppContainer = styled.div`
 
 export const ContentContainer = styled.div`
     border: 1px solid blue;
-    min-height: 400px;
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: auto;
 
 
     #welcome-container {
-        min-height:200px; 
-        height: 800px;
+        border: 1px solid green;
+
+        display: flex;
+        justify-content: center;
+        height: 700px;
 
         #welcome-text-container {
-            // border:1px solid red;
+            border: 1px solid red;
 
-            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            width: 60%;
+            height: 75%;
+            
+            
+            #welcome-title {
+                font-size: 4.41em;
+            }
+
         }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        height: 580px;
     }
 `;
