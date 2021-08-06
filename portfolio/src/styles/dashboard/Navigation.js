@@ -20,7 +20,7 @@ export const NavContainer = styled.div`
     border-bottom: 1px solid hsla(0,0%,100%,.1);
 
     min-height: 50px;
-    height: 4.5vh;
+    height: 4vh;
     min-width: 1000px;
     max-width:100%;
     letter-spacing: .5px;
