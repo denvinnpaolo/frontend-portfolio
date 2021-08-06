@@ -19,9 +19,8 @@ export const NavContainer = styled.div`
     color: ${bg};
     border-bottom: 1px solid hsla(0,0%,100%,.1);
 
-    min-height: 50px;
+    min-height: 25px;
     height: 4vh;
-    min-width: 1000px;
     max-width:100%;
     letter-spacing: .5px;
 
@@ -38,10 +37,8 @@ export const NavContainer = styled.div`
             display: flex;
             align-items: center;
             
-            min-width: 600px;
             width: 80%;
             height: 100%;
-            // background: red;
 
             .link {
                 min-height: 20px;
@@ -50,12 +47,17 @@ export const NavContainer = styled.div`
             }
 
             #nav-title {
+                min-height: 20px;
+                padding: 12px 40px 12px 12px;
                 font-size: 35px;
                 font-weight: 500;
             }
         }
         
-
+        
+        @media only screen and (max-width: 620px) and (min-width: 300px){
+            display: none;
+        }
     }
     
     

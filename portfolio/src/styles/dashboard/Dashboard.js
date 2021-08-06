@@ -12,19 +12,20 @@ export const AppContainer = styled.div`
 
 export const ContentContainer = styled.div`
     border: 1px solid blue;
-    height: 93vh;
-    width: 100vw;
+    min-height: 400px;
+    height: 600px;
+    width: 100%;
     overflow: auto;
 
 
     #welcome-container {
-        border: 1px solid red;
-        height: 100vh;
+        min-height:200px; 
+        height: 800px;
 
         #welcome-text-container {
-            border:1px solid red;
-            height: 100%;
-            max-height: 1200px;
+            // border:1px solid red;
+
+            height: 70%;
         }
     }
 `;
