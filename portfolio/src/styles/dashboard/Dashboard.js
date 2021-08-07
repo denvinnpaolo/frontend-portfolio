@@ -15,7 +15,7 @@ export const AppContainer = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-    border: 1px solid blue;
+    // border: 1px solid blue;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -25,7 +25,6 @@ export const ContentContainer = styled.div`
     }
 
     #welcome-container {
-        border: 1px solid green;
 
         display: flex;
         justify-content: center;
