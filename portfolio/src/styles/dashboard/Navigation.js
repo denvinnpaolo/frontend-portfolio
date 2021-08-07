@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
+// var bg = 'white'
+// var text = 'black'
 var bg = 'black'
+var text = 'white'
 export const NavContainer = styled.div`
     position: relative;
     
@@ -12,11 +15,11 @@ export const NavContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    background-color: #fff;
+    background-color: ${bg};
     margin: 0 auto;
     padding: 20px 4%;
     font-size: 16px;
-    color: ${bg};
+    color: ${text};
     border-bottom: 1px solid hsla(0,0%,100%,.1);
 
     min-height: 25px;
