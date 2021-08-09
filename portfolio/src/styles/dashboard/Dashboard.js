@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 
-var bg = 'black'
-var text = 'white'
+// var bg = 'black'
+// var text = 'white'
+var bg = 'white'
+var text = 'black'
 export const AppContainer = styled.div`
     overflow: visible;
     width: 100vw;
@@ -15,7 +17,7 @@ export const AppContainer = styled.div`
 `;
 
 export const ContentContainer = styled.div`
-    // border: 1px solid blue;
+    margin-top: 75px;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -25,36 +27,34 @@ export const ContentContainer = styled.div`
     }
 
     #welcome-container {
-
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         height: 700px;
 
         #welcome-text-container {
-
             display: flex;
             flex-direction: column;
             align-items:center;
             justify-content: flex-end;
-
             
             width: 810px;
             height: 80%;
             min-height:80%;
-            
+
 
             #welcome-title{
                 font-weight: 600;
             }
-            
             #welcome-subtitle{
                 text-align: center;
                 font-size: 1.2em;
                 margin-top:40px;
                 margin-bottom: 40px;
             }
-
             #welcome-btn {
+                border: 1px solid black;
                 display: flex;
                 justify-content: center;
                 align-items:center;
@@ -71,8 +71,11 @@ export const ContentContainer = styled.div`
                 background: white;
                 color: black;
             }
-           
-
+        }
+        #welcome-slider {
+            border: 1px solid green;
+            height: 100%;
+            width: 100%;
         }
     }
     

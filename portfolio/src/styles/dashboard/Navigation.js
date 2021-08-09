@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
-// var bg = 'white'
-// var text = 'black'
-var bg = 'black'
-var text = 'white'
+var bg = 'white'
+var text = 'black'
 export const NavContainer = styled.div`
-    position: relative;
-    
+    position: fixed;
     left: 0;
     top:0;
     right:0;
