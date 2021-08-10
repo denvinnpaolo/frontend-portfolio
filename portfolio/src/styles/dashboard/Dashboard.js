@@ -17,6 +17,7 @@ export const AppContainer = styled.div`
 `;
 
 export const ContentContainer = styled.div`
+    border: 2px solid pink;
     margin-top: 75px;
     height: 100%;
     width: 100%;
@@ -79,8 +80,32 @@ export const ContentContainer = styled.div`
         }
     }
     
+
+    #top-container{
+        border: 1px solid red;
+        height:500px;
+
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+
+        .top-project{
+            border: 1px solid red;
+            
+
+            height: 65%;
+            width: 30%;
+            min-height: 250px;
+            max-height:400px;
+            min-width: 250px;
+            max-width:400px;
+
+            border-radius: 10px;
+        }
+    }
+
     @media only screen and (max-width: 992px) {
-        height: 580px;
+        // height: 580px;
         
     }
 `;
