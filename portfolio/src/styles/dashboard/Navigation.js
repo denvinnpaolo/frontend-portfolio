@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-var bg = 'white'
-var text = 'black'
+// var bg = 'white'
+// var text = 'black'
+var bg = 'black'
+var text = 'white'
 export const NavContainer = styled.div`
     position: fixed;
     left: 0;
@@ -26,12 +28,12 @@ export const NavContainer = styled.div`
 
     #navigation {
         display: flex;
-        height: 100%;
         align-items: center;
         justify-content: space-between;
+
         width: 100%;
         max-width: 1260px;
-
+        height: 100%;
 
         #nav-menu{
             display: flex;

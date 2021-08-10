@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 
-// var bg = 'black'
-// var text = 'white'
-var bg = 'white'
-var text = 'black'
+var bg = 'black'
+var text = 'white'
+// var bg = 'white'
+// var text = 'black'
 export const AppContainer = styled.div`
     overflow: visible;
     width: 100vw;
@@ -25,6 +25,11 @@ export const ContentContainer = styled.div`
 
     h1 {
         font-size: 4.41em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+        font-weight: 500;
     }
 
     #welcome-container {
@@ -92,7 +97,6 @@ export const ContentContainer = styled.div`
         .top-project{
             border: 1px solid red;
             
-
             height: 65%;
             width: 30%;
             min-height: 250px;
@@ -107,5 +111,43 @@ export const ContentContainer = styled.div`
     @media only screen and (max-width: 992px) {
         // height: 580px;
         
+    }
+`;
+
+export const BlogContainer = styled.div`
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 92vh;
+    min-height: 500px;
+    max-height: 800px;
+
+    #blog-contents {
+        border: 1px solid red;
+
+        display: flex;
+
+        width: 85%;
+        min-width: 800px;
+        max-width: 1100px;
+
+        min-height 300px;
+        height: 80%;
+        max-height: 640px;
+
+        .blog-post {
+            border: 1px solid yellow;
+            height: 210px;
+            width: 210px;
+        }
+
+        .latest-post {
+            height: 100%;
+            width: 100%;
+        }
+
     }
 `;
