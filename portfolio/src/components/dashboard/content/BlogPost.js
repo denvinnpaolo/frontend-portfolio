@@ -7,7 +7,7 @@ const BlogPost = () => {
             <h3>Blog Post</h3>
             <section id="blog-contents">
                 <section className="blog-post latest-post">Blog Post HERE</section>
-                <div>
+                <div id="blog-list">
                     <section className="blog-post">Blog Post HERE</section>
                     <section className="blog-post">Blog Post HERE</section>
                     <section className="blog-post">Blog Post HERE</section>

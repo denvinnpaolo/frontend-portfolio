@@ -79,15 +79,26 @@ export const ContentContainer = styled.div`
             }
         }
         #welcome-slider {
-            border: 1px solid green;
             height: 100%;
             width: 100%;
+        }
+
+        .carousel-container {
+            img {
+                height: 100px;
+            }
+        
+        }
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
         }
     }
     
 
     #top-container{
-        border: 1px solid red;
         height:500px;
 
         display: flex;
@@ -140,13 +151,21 @@ export const BlogContainer = styled.div`
 
         .blog-post {
             border: 1px solid yellow;
-            height: 210px;
-            width: 210px;
+            min-height: 210px;
+
+            min-width: 210px;
+            width: 100%;
+            height: 33%;
         }
 
         .latest-post {
             height: 100%;
             width: 100%;
+        }
+
+        #blog-list {
+            border: 1px solid blue;
+            height: 100%;
         }
 
     }
