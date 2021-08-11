@@ -1,5 +1,8 @@
 import React from 'react';
+import Carousel from 'react-multi-carousel';
 import Typewriter from 'typewriter-effect';
+
+import MultiCarousel from './MultiCarousel';
 const Welcome = () => {
 
     const title = ['Software Engineer', 'Problem Solver', ".NET Developer"]
@@ -23,7 +26,7 @@ const Welcome = () => {
                 <div id="welcome-subtitle">Use AI to write proven, high converting copy for increased conversions and higher ROI. Instantly generate high-quality copy for ads, emails, websites, listings, blogs, and more...</div>
                 <a id="welcome-btn">About →</a>
             </div>
-            <div id="welcome-slider">Automatic Carousel here!!!!</div>
+            <div id="welcome-slider"><MultiCarousel /></div>
         </div>
     )
 };
