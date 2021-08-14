@@ -6,6 +6,7 @@ import js from '../../../assets/javascript.png';
 import reactredux from '../../../assets/reactredux.png';
 import python from '../../../assets/python.png';
 import node from '../../../assets/node.png';
+import aws from '../../../assets/aws.png';
 
 
 
@@ -13,7 +14,7 @@ import node from '../../../assets/node.png';
 const responsive = {
     desktop: {
       breakpoint: { max: 4000, min: 1024 },
-      items: 6
+      items: 7
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -52,6 +53,7 @@ const MultiCarousel = () => {
           <img src={reactredux}/>
           <img src={python}/>
           <img src={node} />
+          <img src={aws} />
       </Carousel>
     );
 };
