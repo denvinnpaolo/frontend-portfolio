@@ -17,6 +17,7 @@ const Dashboard = () => {
                 <Welcome />
                 <Top />
                 <BlogPost />
+                <BlogPost />
             </ContentContainer>
         </AppContainer>
     )
